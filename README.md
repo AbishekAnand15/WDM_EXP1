@@ -53,9 +53,10 @@ rainy,75.0,80.0,false,yes
 8) Click on edit button which shows employee table on weka.
 
 ### OUTPUT:
-EMPLOYEE TABLE:-
-![Screenshot 2024-08-10 112408](https://github.com/user-attachments/assets/ed3ed591-ce61-4b3e-9327-5b510af003e4)
-
+Training Data Set -> Employee Table
+![WDM Ex 1 A](https://github.com/user-attachments/assets/4dae4b4e-bb67-4373-bfa7-34a0a5f0a3a7)
+Training Data Set-> Weather Table
+![WDM Ex 1 B](https://github.com/user-attachments/assets/6d995780-48b5-4a20-92ee-e60c9eca3a86)
 
 
 ### PREPROCESSING
@@ -77,8 +78,10 @@ EMPLOYEE TABLE:-
 14) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
-AFTER CREATING CLIMATE COLUMN:-
-![Screenshot 2024-08-10 113553](https://github.com/user-attachments/assets/9919f72a-3d7f-42ab-ba24-c7f0b1525fb5)
+Employee Table after adding new attribute ADDRESS:
+![WDM Ex 1 D ii](https://github.com/user-attachments/assets/27d5e27c-8068-47b3-8a77-ff935815e880)
+Weather Table after adding new attribute CLIMATE:
+![WDM Ex 1 C ii](https://github.com/user-attachments/assets/0d46fc44-653b-4b3b-837a-b8ec801274a8)
 
 
 ### 2) Remove -> Pre-Processing Technique:
@@ -96,8 +99,13 @@ AFTER CREATING CLIMATE COLUMN:-
 11) Click on the Edit button, it shows a new Weather Table on Weka.
 
 ### OUTPUT:
-AFTER REMOVING WINDY,PLAY:-
-![Screenshot 2024-08-10 114019](https://github.com/user-attachments/assets/901ca274-61d3-47fa-ad50-dc4d5911b60e)
+
+Employee Table after removing attributes SALARY, GENDER:
+
+![WDM Ex 1 D iii](https://github.com/user-attachments/assets/30509d64-b4b0-4f6e-b680-8e1e4f65b76e)
+Weather Table after removing attributes WINDY, PLAY:
+![WDM Ex 1 C iii](https://github.com/user-attachments/assets/9efadd38-3373-407a-a3ce-a06db862c4d7)
+
 
 
 
@@ -116,8 +124,12 @@ AFTER REMOVING WINDY,PLAY:-
 11) Click on the Edit button, it shows a new Weather Table with normalized values on Weka.
 
 ### OUTPUT:
-AFTER NORMALIZING TEMPERATURE,HUMIDITY:-
-![Screenshot 2024-08-10 114317](https://github.com/user-attachments/assets/6d049f69-4802-4717-8423-f68a15b5e6d5)
+
+Employee Table after Normalizing ID, EXP, PHONE:
+![WDM Ex 1 D iv](https://github.com/user-attachments/assets/3eedc318-55c9-4d59-9df1-4f36fd73d612)
+Weather Table after Normalizing TEMPARATURE, HUMIDITY:
+![WEB Ex 1 C iv](https://github.com/user-attachments/assets/00c8427f-9828-4812-9ca5-7f78a3c6100b)
+
 
 ### RESULT: 
   Thus the program for generating employee and weather datasets has been developed, and preprocessing has been accomplished successfully.
